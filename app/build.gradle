@@ -32,7 +32,6 @@ android {
 
 dependencies {
 
-    implementation 'me.bendik.simplerangeview:simplerangeview:0.2.0'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'com.google.firebase:firebase-messaging-directboot:23.1.0'
     implementation 'com.google.firebase:firebase-messaging:23.1.0'
@@ -40,13 +39,13 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:21.0.0'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.code.gson:gson:2.8.6'
-    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8+'
+    //noinspection GradleDynamicVersion
+    //implementation 'com.github.CanHub:Android-Image-Cropper:4.3.0'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'// compulsory
     implementation 'com.google.android.gms:play-services-location:21.0.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0' //for retrofit conversion
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'jp.wasabeef:picasso-transformations:2.4.0'
-    implementation 'androidx.multidex:multidex:2.0.1'
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     // Retrofit & OkHttp
     implementation "com.squareup.okhttp3:okhttp:4.9.0"
